@@ -1,3 +1,5 @@
+[![Installing_and_Cleaning](https://github.com/mtlulka/AoC2022/actions/workflows/makefile.yml/badge.svg)](https://github.com/mtlulka/AoC2022/actions/workflows/makefile.yml)
+
 # AoC2022
 
 Python 3.10 (assumed to have, but provided a link to installation) + Jupyter Notebook (assumed to have, but provide pip command) + Advent of Code 2022
