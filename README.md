@@ -3,8 +3,7 @@
 Python 3.10 (assumed to have, but provided a link to installation) + Jupyter Notebook (assumed to have, but provide pip command) + Advent of Code 2022
 
 ```sh
-$ pip install --upgrade pip
-$ pip install notebook
+$ make pip-jupyter
 ```
 
 Say where the solutions are and that my input is provided - generally it is personalised on the AoC website.
