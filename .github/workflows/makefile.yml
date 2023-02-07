@@ -10,6 +10,9 @@ jobs:
       with:
         python-version: "3.10"
         cache: "pip"
+    - name: Update pip and install Jupyter
+      run: |
+        make pip-jupyter
     - name: Install dependencies
       run: |
         make install
