@@ -8,3 +8,7 @@ install:
 clean:
 	jupyter kernelspec uninstall .venv -y &&\
 		rm -r .venv
+
+pip-jupyter:
+	pip install --upgrade pip &&\
+		pip install notebook
