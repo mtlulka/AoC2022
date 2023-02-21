@@ -1,4 +1,4 @@
-name: Notebook-Version
+name: Environment-Version
 on: [push]
 jobs:
   build:
