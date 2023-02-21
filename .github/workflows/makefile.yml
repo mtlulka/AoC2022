@@ -1,4 +1,4 @@
-name: Installing_and_Cleaning
+name: Notebook-Version
 on: [push]
 jobs:
   build:
@@ -9,13 +9,9 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: "3.10"
-        cache: "pip"
-    - name: Update pip and install Jupyter
-      run: |
-        make pip-jupyter
     - name: Install dependencies
       run: |
-        make install
+        make jup-install
     - name: Clean dependencies
       run: |
-        make clean
+        make jup-clean

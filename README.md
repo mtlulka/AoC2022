@@ -3,6 +3,10 @@
 Python 3.10 (assumed to have, but provided a link to installation) + Jupyter Notebook (assumed to have, but provide pip command) + Advent of Code 2022
 
 ```sh
+$ pip install notebook
+```
+
+```sh
 $ make pip-jupyter
 ```
 
@@ -10,13 +14,18 @@ Say where the solutions are and that my input is provided - generally it is pers
 
 It is recommended to use a virtual environement
 ```sh
-$ make install
+$ make env-install
 ```
+
+```sh
+$ make jup-install
+```
+
 Then select the *mtlulka/AoC2022* kernel in the notebook.
 
 After running the code, it is adviced to deregister the kernel and delete the virtual environment:
 ```sh
-$ make clean
+$ make jup-clean
 ```
 
 (Not Recommended) Alternatively, one can install dependencies in the global environment:
