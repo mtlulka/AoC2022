@@ -1,5 +1,4 @@
 [![Notebook-Version](https://github.com/mtlulka/AoC2022/actions/workflows/makefile.yml/badge.svg)](https://github.com/mtlulka/AoC2022/actions/workflows/makefile.yml)
-
 [![Environment-Version](https://github.com/mtlulka/AoC2022/actions/workflows/env_makefile.yml/badge.svg)](https://github.com/mtlulka/AoC2022/actions/workflows/env_makefile.yml)
 
 # AoC2022
