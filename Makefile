@@ -2,7 +2,8 @@ jup-install:
 	python3 -m venv ./.venv &&\
 		. .venv/bin/activate &&\
 		pip install -r requirements.txt &&\
-		python -m ipykernel install --user --name .venv --display-name "mtlulka/AoC2022" &&\
+		pip install ipykernel &&\
+		python3 -m ipykernel install --user --name .venv --display-name "mtlulka/AoC2022" &&\
 		deactivate
 
 jup-clean:
@@ -11,5 +12,5 @@ jup-clean:
 
 env-install:
 	pip install --upgrade pip &&\
-		pip install -r jupyter_reqs.txt &&\
+		pip install notebook==6.5.2 &&\
 		pip install -r requirements.txt
