@@ -1,0 +1,11 @@
+name: Docker-Version
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: make docker-build
+    - name: Run the Docker image
+      run: make docker-run
