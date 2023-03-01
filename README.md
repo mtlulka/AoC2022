@@ -1,5 +1,6 @@
 [![Notebook-Version](https://github.com/mtlulka/AoC2022/actions/workflows/makefile.yml/badge.svg)](https://github.com/mtlulka/AoC2022/actions/workflows/makefile.yml)
 [![Environment-Version](https://github.com/mtlulka/AoC2022/actions/workflows/env_makefile.yml/badge.svg)](https://github.com/mtlulka/AoC2022/actions/workflows/env_makefile.yml)
+[![Docker-Version](https://github.com/mtlulka/AoC2022/actions/workflows/docker-image.yml/badge.svg)](https://github.com/mtlulka/AoC2022/actions/workflows/docker-image.yml)
 
 <!--- TODO: Rewrite the README.md --->
 
