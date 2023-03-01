@@ -14,3 +14,12 @@ env-install:
 	pip install --upgrade pip &&\
 		pip install notebook==6.5.2 &&\
 		pip install -r requirements.txt
+
+docker-build:
+	docker build -t mtlulka/aoc2022:latest .
+
+docker-run:
+	docker run -it --rm \
+	-p 8888:8888 \
+	-e DOCKER_STACKS_JUPYTER_CMD=notebook \
+	mtlulka/aoc2022
