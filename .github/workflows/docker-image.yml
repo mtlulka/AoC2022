@@ -8,4 +8,4 @@ jobs:
     - name: Build the Docker image
       run: make docker-build
     - name: Run the Docker image
-      run: make docker-run
+      run: docker run --rm -p 8888:8888 -e DOCKER_STACKS_JUPYTER_CMD=notebook mtlulka/aoc2022
