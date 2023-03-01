@@ -9,4 +9,4 @@ jobs:
       run: make docker-build
     - name: Test run the Docker image
       run: docker run --rm -p 8888:8888 -e DOCKER_STACKS_JUPYTER_CMD=notebook mtlulka/aoc2022 &\
-        kill -9 $(lsof -n -i4TCP:8888 | cut -f 2 -d " ")
+        exit
