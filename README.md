@@ -38,7 +38,7 @@ Next, start the Jupyter Notebook App
 ```sh
 $ jupyter notebook solutions
 ```
-and select the *mtlulka/AoC2022* kernel in the `.ipynb` notebook for any day of interest.
+and select the ***mtlulka/AoC2022*** kernel in the `.ipynb` notebook for any day of interest.
 
 After exiting and shutting down the app, it is advised to deregister the kernel and delete the virtual environment `.venv` via:
 
