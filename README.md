@@ -33,14 +33,12 @@ $ make jup-install
 ```
 from the terminal.
 Thus, all dependencies are installed in a virtual environment `.venv`, which is subsequently registered as a kernel to use with Jupyter.
-
 Next, start the Jupyter Notebook App
 ```sh
 $ jupyter notebook solutions
 ```
 and select the ***mtlulka/AoC2022*** kernel in the `.ipynb` notebook for any day of interest.
-
-After exiting and shutting down the app, it is advised to deregister the kernel and delete the virtual environment `.venv` via:
+Upon exiting and shutting down the app, it is advised to deregister the kernel and delete the virtual environment `.venv` via:
 
 ```sh
 $ make jup-clean
@@ -62,8 +60,8 @@ as usual.
 
 ### 3. Run from a Docker image
 
-Finally, building and running the notebooks on top of [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/) is a reliable alternative to the cases above.
-On a Linux system with the [make](https://www.gnu.org/software/make/) tool it is as simple as running
+Finally, building and running the notebooks on top of [*Jupyter Docker Stacks*](https://jupyter-docker-stacks.readthedocs.io/) is a reliable alternative to the cases above.
+On a Linux system with the [*make*](https://www.gnu.org/software/make/) tool it is as simple as running
 ```sh
 $ make docker-build
 $ make docker-run
