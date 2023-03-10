@@ -11,7 +11,7 @@ The solutions contained in [*Jupyter notebooks*](http://jupyter.org/) were devel
 The code relies on *Python*'s core functionalities and the [*NumPy*](https://numpy.org/) library (with rare use of [*SciPy*](https://scipy.org/)'s [LP](https://en.wikipedia.org/wiki/Linear_programming) optimizer).
 Occasional comments explain non-obvious steps. Otherwise, the code is easy to follow.
 
-The puzzle input `day_xx_input.txt` and the corresponding solution `day_xx.ipynb` are contained in a seperate subfolder `xx_day` within the [`solutions`](solutions) folder for each of the 25 days (`01 <= xx <= 25`). Puzzle descriptions and personalised input can be obtained from the [AoC 2022](https://adventofcode.com/2022) website after registration.
+The puzzle input `day_xx_input.txt` and the corresponding solution `day_xx.ipynb` are contained in a seperate subdirectory `xx_day` within the [`solutions`](solutions) directory for each of the 25 days (`01 <= xx <= 25`). Puzzle descriptions and personalised input can be obtained from the [AoC 2022](https://adventofcode.com/2022) website after registration.
 
 ## Use Cases
 
